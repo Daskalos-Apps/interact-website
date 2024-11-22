@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    font-family: sans-serif;
+    font-family: Open Sans, sans-serif;
     position: relative;
 }
 
@@ -16,36 +16,56 @@ a:focus {
 
 h1 {
     font-size: 60px;
-    font-weight: 300;
     letter-spacing: -1px;
     margin-bottom: 1.5rem;
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 h2 {
     font-size: 45px;
-    font-weight: 300;
     color: #1A2B3F;
     letter-spacing: -1px;
     margin-bottom: 1rem;
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 h3 {
     color: #1A2B3F;
     font-size: 33px;
-    font-weight: 500;
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 h4 {
     font-size: 20px;
-    font-weight: 500;
     color: #1A2B3F;
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 h5 {
     font-size: 28px;
-    font-weight: 300;
     color: #1A2B3F;
     margin-bottom: 0.7rem;
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 p {
@@ -79,10 +99,7 @@ p.lead {
 
 .btn-primary {
     border-radius: 3px;
-    background-image: -moz-linear-gradient( 122deg, #002B36 0%, #002B36 100%);
-    background-image: -webkit-linear-gradient( 122deg, #002B36 0%, #002B36 100%);
-    background-image: -ms-linear-gradient( 122deg, #002B36 0%, #002B36 100%);
-    background-image: linear-gradient( 122deg, #002B36 0%, #002B36 100%);
+    background-color: #005066;
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
     font-weight: 500;
     padding: 0.6rem 2rem;
@@ -129,10 +146,20 @@ p.lead {
 .section-title {
     text-align: center;
     margin-bottom: 3rem;
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 .section-title small {
     color: #998a9b;
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 .app-logo {
